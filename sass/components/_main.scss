@@ -1,5 +1,9 @@
 @import "./../abstract/constants";
 
+main {
+    position: relative;
+}
+
 .rectangle_container {
     position: relative;
     height: 18rem;
@@ -42,36 +46,44 @@ h1 {
     top: 1%;
     left: 20%;
     z-index: 2;
-    // background-color: green;
+
 }
 
 .find_btn.join {
     margin: 0;
 }
 
-.big_star {
+.stars__block {
     position: absolute;
-    left: 6.62%;
-    right: 84.84%;
-    top: 302.72%;
+    top: 7%;
+    left: 1%;
+    width: 24rem;
+    height: 33rem;
+    z-index: 1;
+}
+
+.big_star {
+    position: relative;
+    left: 15%;
+    top: 1%;
     bottom: 8.81%;
-    z-index: 5;
+
 }
 
 .med_star {
-    position: absolute;
-    left: 12.19%;
-    right: 84.79%;
-    top: 329%;
+    position: relative;
+    left: 46%;
+    top: 15%;
     bottom: 0%;
+    z-index: 10;
 }
 
 .small_star {
-    position: absolute;
-    left: 0.81%;
-    right: 93.89%;
-    top: 324.22%;
+    position: relative;
+    left: -40%;
+    top: -5%;
     bottom: 5.52%;
+    z-index: 10;
 }
 
 .opportunities {
@@ -80,19 +92,137 @@ h1 {
     background: linear-gradient(180deg, #464069 0%, rgba(118, 107, 175, 0) 37.79%);
 }
 
+.section__title {
+    width: 117rem;
+    margin: 0 auto;
+    padding-top: 15rem;
+    padding-left: 15rem;
+}
+
+h4 {
+    margin: 0rem;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5rem;
+    line-height: 6rem;
+    text-align: right;
+    color: #464069;
+}
+
+.subtitle {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-align: right;
+    color: #464069;
+}
+
 .wrapper {
     @include flex(justfy, align, direction);
     padding: 5rem;
 }
 
 .left_side {
-    width: 80rem;
+    width: 100rem;
     height: 30rem;
-    // background-color: green;
+    padding: 1rem;
+
 }
 
+.logo__title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #464069;
+    margin-bottom: 7rem;
+
+}
+
+.left__side_section {
+    width: 63.4rem;
+    height: 29rem;
+
+    h5 {
+        margin-top: 0;
+        margin-bottom: 5rem;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: uppercase;
+        color: #B8121A;
+    }
+
+    div {
+
+        @include flex();
+
+        p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 27px;
+            margin-bottom: 1rem;
+            color: #464069;
+            text-align: start;
+        }
+    }
+
+
+}
+
+.bussiness {
+    width: 44rem;
+}
+
+.address {
+    width: 62.5rem;
+
+    :nth-child(1) {
+        padding-bottom: 2.5rem;
+    }
+
+    :nth-child(2) {
+        width: 31rem;
+        margin-right: 9rem;
+    }
+}
+
+.description {
+    width: 63rem;
+
+    :nth-child(1) {
+        width: 20rem;
+        height: 3rem;
+        padding-bottom: 7rem;
+
+    }
+
+    :nth-child(2) {
+        width: 42rem;
+        margin: 0 0.7rem;
+        padding-left: 1.6rem;
+    }
+}
+
+.contact {
+    width: 35.5rem;
+    margin-top: 2rem;
+
+}
+
+
+
 .right_side {
-    padding-left: 5rem;
+    padding-left: 9rem;
 }
 
 
