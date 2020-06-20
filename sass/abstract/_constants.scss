@@ -1,0 +1,17 @@
+$stars_color: #FFBC6B;
+$buttons_color: #FFFFFF;
+$join_btn_color: #B8121A;
+$social_color: #2A263D;
+
+$content-width: 1920px;
+
+
+
+
+
+@mixin flex ($justfy: space-between, $align: center, $direction: row) {
+    display: flex;
+    justify-content: $justfy;
+    align-items: $align;
+    flex-direction: $direction;
+}

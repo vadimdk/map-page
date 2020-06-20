@@ -1,0 +1,39 @@
+@import "./../abstract/constants";
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    // max-width: $content-width;
+    // height: 1500px;
+    margin: 0;
+    padding: 0;
+
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+span,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
