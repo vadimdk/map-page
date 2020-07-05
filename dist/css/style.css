@@ -258,7 +258,7 @@ li {
 
 .map {
   position: absolute;
-  width: 99.8%;
+  width: 99.4%;
   height: 158rem;
   left: 0rem;
   top: 450px;
@@ -434,7 +434,7 @@ h1 .rectangle {
   -webkit-box-direction: normal;
       -ms-flex-direction: direction;
           flex-direction: direction;
-  padding: 5rem;
+  padding: 3rem;
 }
 
 .left_side {
